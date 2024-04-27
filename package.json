@@ -1,0 +1,39 @@
+{
+  "name": "my-list-backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/server.js",
+    "test": "tsc && mocha dist/test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai-http": "^4.2.0",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.3.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.14",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mocha": "^10.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.7",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
+    "chai": "^5.1.0",
+    "jest": "^29.7.0",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
