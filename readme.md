@@ -14,6 +14,8 @@ You are enhancing your OTT platform to include a new feature called "My List," w
 - http://localhost:3000/api-docs/ for swagger doc
 - npm test ( for testing of route using mocha and chai)
 
+![image](https://github.com/Kamalpreet2812/my-list/assets/76252369/315961b8-ddfc-4bbc-9273-e7644aa7aad0)
+
 ## Explaination
 Get route is optimized by the most accessed content will be saved in the redis cache for 1 hour if same content is present in the redis then no need to fetch in the db.
 
